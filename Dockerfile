@@ -10,7 +10,7 @@ COPY . /app
 
 RUN npm install
 
-ENV PORT=80
+ENV PORT=100
 
 EXPOSE 100
 
