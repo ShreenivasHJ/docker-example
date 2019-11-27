@@ -12,6 +12,6 @@ RUN npm install
 
 ENV PORT=100
 
-EXPOSE 100
+EXPOSE 80
 
 ENTRYPOINT ["npm","run","prod"]
